@@ -6,4 +6,6 @@ document.querySelectorAll(".slider > img").forEach((img) => {
   mySlider.addImgElement(img);
 });
 
-mySlider.startSlide();
+//mySlider.startSlideV1();
+
+mySlider.startSlideV2();

@@ -13,13 +13,13 @@ export default class SliderImg {
     this.element.style.display = "none";
   }
 
-  slideInVisible() {
+  slideInVisibleV1() {
     this.element.classList.remove("slideOut");
     this.element.classList.add("slideIn");
     this.setVisible();
   }
 
-  slideOutHidden() {
+  slideOutHiddenV1() {
     this.element.classList.remove("slideIn");
     this.element.classList.add("slideOut");
     setTimeout(() => {
