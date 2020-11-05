@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.slideIn {
+  animation: slideInAnim 0.5s forwards;
+}
+@keyframes slideInAnim {
+  from {
+    margin-left: 500px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+.slideOut {
+  animation: slideOutAnim 0.5s forwards;
+}
+@keyframes slideOutAnim {
+  from {
+    margin-right: 0px;
+  }
+  to {
+    margin-right: 500px;
+  }
+}
