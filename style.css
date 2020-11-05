@@ -38,3 +38,7 @@ body {
     transform: translate(-500px, 0px) rotateZ(0.001deg);
   }
 }
+
+.slide2animation {
+  transition: transform 0.5s linear;
+}
