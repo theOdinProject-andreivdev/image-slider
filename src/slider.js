@@ -23,7 +23,7 @@ export default class Slider {
         if (this.currentSlide < this.images.length - 1) this.currentSlide++;
         else this.currentSlide = 0;
         this.startSlide();
-      }, 1000);
-    }, 1000);
+      }, 500);
+    }, 5000);
   }
 }

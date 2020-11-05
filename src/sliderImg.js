@@ -6,6 +6,7 @@ export default class SliderImg {
 
   setVisible() {
     this.element.style.display = "flex";
+    this.element.style.width = "100%";
   }
 
   setHidden() {
@@ -23,6 +24,6 @@ export default class SliderImg {
     this.element.classList.add("slideOut");
     setTimeout(() => {
       this.setHidden();
-    }, 1000);
+    }, 500);
   }
 }
